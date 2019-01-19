@@ -1,5 +1,38 @@
 apply plugin: 'com.android.library'
 
+// START For the Bintray library upload
+apply plugin: 'com.jfrog.bintray'
+apply plugin: 'com.github.dcendents.android-maven'
+
+ext {
+
+    bintrayRepo = "GnarlyDialog" // repo name in bintray dashboard
+    bintrayName = "me.seandillon.gnarlydialog"
+
+    libraryName = 'gnarlydialog' // module name in android studio
+
+    // Atrifact Info
+    publishedGroupId = 'me.seandillon.gnarlydialog' // the id you want to add in the implementation line
+    artifact = 'gnarlydialog'                       // the artifact in the implementation line
+    libraryVersion = '1.0'
+
+    libraryDescription = 'blah blah fill in later'
+    siteUrl = 'https://github.com/sdillon1/GnarlyDialogSampleApp'
+    gitUrl= 'https://github.com/sdillon1/GnarlyDialogSampleApp.git'
+    developerId = 'seandillon'
+    developerName = 'Sean Dillon'
+    developerEmail = 'seandillonapps@gmail.com'
+    licenseName = 'Apache-2.0'
+    licenseUrl = 'http://www.opensource.org/licenses/apache2.0.php'
+    allLicenses = ["Apache-2.0"]
+
+}
+// END For the Bintray library upload
+
+
+
+
+
 android {
     compileSdkVersion 28
 
@@ -31,4 +64,11 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
+
+// Last thing for the Bintray Library Upload
+// Add these linesto publish library to bintray. This is the ready mande scripts to make uploading easy, place at bottom of file
+if (project.rootProject.file('local.properties').exists()){
+    apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+    apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
 }
