@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="gnarly_dialog_padding">16dp</dimen>
+    <dimen name="gnarly_dialog_width">290dp</dimen>
+    <dimen name="gnarly_dialog_rounded_corners">12dp</dimen>
+    <dimen name="gnarly_dialog_inner_wrapper_margin">4dp</dimen>
+
+</resources>

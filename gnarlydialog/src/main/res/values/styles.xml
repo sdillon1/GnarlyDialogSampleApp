@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Overall Gnarly Dialog theme -->
+    <style name="gnarly_dialog_style" parent="android:Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@color/gnarly_color_transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+
+
+    <!-- Start of button themes -->
+
+    <style name="gnarly_dialog_button_theme_success" parent="Theme.AppCompat">
+
+        <item name="colorButtonNormal">@color/gnarly_dialog_success_primary_color</item>
+        <item name="colorControlHighlight">@color/gnarly_dialog_success_accent_color</item>
+
+    </style>
+
+    <style name="gnarly_dialog_button_theme_error" parent="Theme.AppCompat">
+
+        <item name="colorButtonNormal">@color/gnarly_dialog_error_primary_color</item>
+        <item name="colorControlHighlight">@color/gnarly_dialog_error_accent_color</item>
+
+    </style>
+
+    <style name="gnarly_dialog_button_theme_info" parent="Theme.AppCompat">
+
+        <item name="colorButtonNormal">@color/gnarly_dialog_info_primary_color</item>
+        <item name="colorControlHighlight">@color/gnarly_dialog_info_accent_color</item>
+
+    </style>
+
+    <style name="gnarly_dialog_button_theme_warning" parent="Theme.AppCompat">
+
+        <item name="colorButtonNormal">@color/gnarly_dialog_warning_primary_color</item>
+        <item name="colorControlHighlight">@color/gnarly_dialog_warning_accent_color</item>
+
+    </style>
+
+    <style name="gnarly_dialog_button_theme_cancel" parent="Theme.AppCompat">
+
+        <item name="colorButtonNormal">@color/gnarly_dialog_secondary_button_primary_color</item>
+        <item name="colorControlHighlight">@color/gnarly_dialog_secondary_button_accent_color</item>
+
+    </style>
+
+    <!-- End of button themes -->
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Solid color with rounded top corners-->
+    <solid android:color="@color/material_white" />
+    <corners
+        android:bottomLeftRadius="@dimen/gnarly_dialog_rounded_corners"
+        android:bottomRightRadius="@dimen/gnarly_dialog_rounded_corners"/>
+
+</shape>

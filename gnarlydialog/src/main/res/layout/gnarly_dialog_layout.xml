@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/gnarlyLinearLayoutWrapper"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="@dimen/gnarly_dialog_width"
+              android:layout_height="match_parent"
+              android:background="@drawable/gnarly_background_normal"
+              android:gravity="center"
+              android:orientation="vertical">
+    <!--android:padding="@dimen/dialog_padding">-->
+
+    <LinearLayout
+        android:id="@+id/gnarlyLinearLayoutTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/gnarly_dialog_padding">
+
+        <TextView
+            android:id="@+id/mTextView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wow!"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/gnarlyLinearLayoutContentWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@drawable/gnarly_background_inner"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/gnarlyTextviewContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="16dp"
+            android:text="This is a gnarly dialog dawg!"
+            android:textAlignment="gravity"
+            android:textAppearance="@style/TextAppearance.AppCompat.Inverse"
+            tools:text="text here"/>
+
+        <LinearLayout
+            android:id="@+id/gnarlyLinearLayoutContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/gnarlyButtonSecondaryCancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/gnarly_dialog_padding"
+                android:text="Cancel"
+                android:theme="@style/gnarly_dialog_button_theme_cancel"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/gnarlyButtonPrimarySuccess"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/gnarly_dialog_padding"
+                android:text="Success"
+                android:theme="@style/gnarly_dialog_button_theme_success"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/gnarlyButtonPrimaryError"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/gnarly_dialog_padding"
+                android:text="Error"
+                android:theme="@style/gnarly_dialog_button_theme_error"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/gnarlyButtonPrimaryInfo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/gnarly_dialog_padding"
+                android:text="Info"
+                android:theme="@style/gnarly_dialog_button_theme_info"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/gnarlyButtonPrimaryWarning"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/gnarly_dialog_padding"
+                android:text="Warning"
+                android:theme="@style/gnarly_dialog_button_theme_warning"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
