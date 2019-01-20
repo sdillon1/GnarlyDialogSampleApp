@@ -6,6 +6,7 @@ GnarlyDialog is a fancy little Android Dialog library that makes it easy
 to create pretty, animated dialog messages in your apps.
 
 Latest Version
+
 [ ![Latest Version](https://api.bintray.com/packages/sdillon255/GnarlyDialog/me.seandillon.gnarlydialog/images/download.svg?version=1.1) ](https://bintray.com/sdillon255/GnarlyDialog/me.seandillon.gnarlydialog/1.1/link)
 
 Insert GooglePlay sample app download link here
@@ -66,21 +67,35 @@ use the color wrap layout which is enabled by default. Simply pass `false` as th
 
 <hr>
 
-##### Show #####
+##### Show the GnarlyDialog #####
 To show the GnarlyDialog dialogs, use `gnarlyDialog.gnarlyDialogShow()`.
 This will show the dialog with an animation in. Do not use the available Dialog function
 `gnarlyDialog.show()`. This will still show the dialog but it will not animate in.
 
 <hr>
 
-#### Dismiss ####
+#### Dismiss the GnarlyDialog ####
 Similar to showing the dialog, use `gnarlyDialog.gnarlyDialogDismiss()` to dismiss it.
 Again, the  `gnarlyDialog.dismiss()` function is available and will dismiss the GnarlyDialog
  but it will not animate out.
 
 <hr>
 
-#### Type options ####
+#### Should Cancel On Touch Outside ####
+
+Android Dialogs have an
+included function called `setCanceledOnTouchOutside()`. If set to `true`,
+the dialog will disappear without animation if the user touches the
+screen outside the dialog.
+
+I recommend that you always set this to `false` because who likes a
+disappearing GnarlyDialog without its exit animation?
+
+`gnarlyDialog.setGnarlyShouldDismisOnOutsideTouch(false)`
+
+<hr>
+
+#### Style Type Options ####
 These are the current GnarlyDialog type options. Each option gives the GnarlyDialog
 a different color scheme and the `GNARLY_DIALOG_TYPE_DEFAULT` is currently set to
 `GNARLY_DIALOG_TYPE_INFO`
@@ -92,7 +107,7 @@ a different color scheme and the `GNARLY_DIALOG_TYPE_DEFAULT` is currently set t
 
 <hr>
 
-#### Color wrap option ####
+#### Color Wrap Option ####
 The color wrap option is enabled by default unless you disable it with
 the appropriate constructor. The color wrap wraps the entire GnarlyDialog
 with a thin edge of color that matches the primary color for the
@@ -136,6 +151,7 @@ myGnarlyDialog.setGnarlyPrimaryButtonListener(new View.OnClickListener() {
         myGnarlyDialog.gnarlyDialogDismiss();
     }
 });
+myGnarlyDialog.setGnarlyShouldDismisOnOutsideTouch(false);
 myGnarlyDialog.gnarlyDialogShow();
 ```
 
@@ -160,5 +176,6 @@ Below is a list of apps currently using GnarlyDialog.
 If you use GnarlyDialog and would like to have your app listed here, send me a message
 or shoot me an email at seandillonapps@gmail.com.
 
+ - GnarlyDialog sample app Google Play link 
  - App 1 Google Play link
  - App 2 Google Play link
