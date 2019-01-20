@@ -1,10 +1,28 @@
 # GnarlyDialogSampleApp
 Fill in description later
 
+### Initial stuff ###
+ - Version badge from Bintray
+ - GoolgePlay sample app download link
+ - Android Arsenal Link
+
 ### Description ###
 description goes here
 
+Gnarly Dialog is a fancy little Android Dialog library that is free to use by anyone.
+
 ### Insert GIF showing GnarlyDialogs from sample app here ###
+
+<p float="left">
+  <img src="/ReadmeResources/screenshot_success_colorwrap.png?raw=true" width="250" />
+  <img src="/ReadmeResources/screenshot_error_colorwrap.png?raw=true" width="250"/>
+  <img src="/ReadmeResources/screenshot_warning_colorwrap.png?raw=true" width="250" />
+  <img src="/ReadmeResources/screenshot_info_colorwrap.png?raw=true" width="250" />
+</p>
+
+4 screen shots side by side here
+
+1 GIF
 
 ### Setup ###
 
@@ -137,3 +155,12 @@ myGnarlyDialog.gnarlyDialogShow();
 #### Useful Info ####
  - Steps to publish library to Bintray
    - https://android.jlelse.eu/publishing-your-android-kotlin-or-java-library-to-jcenter-from-android-studio-1b24977fe450
+
+### Apps using GnarlyDialog ###
+Below is a list of apps currently using GnarlyDialog.
+
+If you use GnarlyDialog and would like to have your app listed here, send me a message
+or shoot me an email at seandillonapps@gmail.com.
+
+ - App 1
+ - App 2
