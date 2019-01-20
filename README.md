@@ -4,6 +4,8 @@ Fill in description later
 ### Description ###
 description goes here
 
+### Insert GIF showing GnarlyDialogs from sample app here ###
+
 ### Setup ###
  - Maven Central or my Bintray maven for now
  - Gradle implementation...
@@ -20,15 +22,36 @@ myGnarlyDialog.gnarlyDialogShow();
 ### Optional Functions and Options ###
 
 #### Constructors ####
+There are 3 constructor options available for GnarlyDialog.
+
+Create a simple default styles GnarlyDialog by only passing a Context.
+
+`public GnarlyDialog(Context context)`
+
+Create a GnarlyDialog of a specific type by passing a Context and a type.
+
+`public GnarlyDialog(Context context, int gnarlyDialogType)`
+
+Create a GnarlyDialog of a specific type as well as deciding if you want to
+use the color wrap layout which is enabled by default. Simple pass `false` as the
+`shouldUseColorWrapLayout` parameter to use the non color wrapping layout.
+
+`public GnarlyDialog(Context context, int gnarlyDialogType, boolean shouldUseColorWrapLayout)`
+
+<hr>
 
 ##### Show #####
 To show the GnarlyDialog dialogs, use gnarlyDialog.gnarlyDialogShow().
 This will show the dialog with an animation in. Do not use the available Dialog function
 gnarlyDialog.show(). This will still show the dialog but it will not animate in.
 
+<hr>
+
 #### Dismiss ####
 Similar to showing the dialog, use gnarlyDialog.gnarlyDialogDismiss() to dismiss it.
 Again, the Dislog.dismiss() function is available but it will not animate out the dialog.
+
+<hr>
 
 #### Type options ####
 These are the current GnarlyDialog type options. Each option gives the GnarlyDialog
@@ -40,6 +63,8 @@ a different color scheme and the `GNARLY_DIALOG_TYPE_DEFAULT` is currently set t
  - `GnarlyDialog.GNARLY_DIALOG_TYPE_WARNING`
  - `GnarlyDialog.GNARLY_DIALOG_TYPE_DEFAULT`
 
+<hr>
+
 #### Color wrap option ####
 The color wrap option is enabled by default unless you disable it. This wraps the
 entire GnarlyDialog with a thin color edge that matches the primary color for the
@@ -47,6 +72,8 @@ dialog type.
 
 To disable the color wrap option, pass false as the `boolean shouldUseColorWrapLayout` arg
 to the GnarlyDialog constructor.
+
+<hr>
 
 #### Button Options ####
 GnarlyDialogs will have no buttons by default but you can easily add a primary and secondary button.
@@ -60,6 +87,8 @@ To add a secondary button, call `gnarlyDialog.setGnarlySecondaryButtonText(Strin
 a string that you want to set as the secondary button text.
 
 You can also pass a `View.OnClickListener()` to either button to do something on button click.
+
+<hr>
 
 ##### Full Button Example #####
 The below button example creates a GnarlyDialog with a title, content, and primary button and
@@ -79,6 +108,8 @@ myGnarlyDialog.setGnarlyPrimaryButtonListener(new View.OnClickListener() {
 myGnarlyDialog.gnarlyDialogShow();
 ```
 
+<hr>
+
 ### GIFs ###
  - Success with color wrap
  - Warning with color wrap
@@ -87,8 +118,9 @@ myGnarlyDialog.gnarlyDialogShow();
 
 ![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
 
-![Alt text](/ReadmeResources/screenshot_success_colorwrap.png?raw=true "Screenshot Success with Color Wrap")
+![Alt text](/ReadmeResources/screenshot_success_colorwrap.png?raw=true "Screenshot Success with Color Wrap" | width=100)
 
+<hr>
 
 ## TODO Library ##
  - Create a nice fancy Readme here
