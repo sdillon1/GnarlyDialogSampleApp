@@ -122,7 +122,7 @@ myGnarlyDialog.gnarlyDialogShow();
 
 ![Alt text](/ReadmeResources/screenshot_success_colorwrap.png?raw=true "Optional Title")
 
-<img src="/ReadmeResources/screenshot_success_colorwrap.png?raw=true" width="50">
+<img src="/ReadmeResources/screenshot_success_colorwrap.png?raw=true" width="250">
 
 
 <hr>
