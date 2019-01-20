@@ -1,5 +1,7 @@
 # GnarlyDialogSampleApp
 
+TODO - Finish making this readme
+
 ### Initial stuff ###
  - Version badge from Bintray
  - GoolgePlay sample app download link
@@ -12,14 +14,18 @@ to create pretty, animated dialog messages in your apps.
 
 ### Insert GIF showing GnarlyDialogs from sample app here ###
 
-<p float="left">
+<p align="center">
   <img src="/ReadmeResources/screenshot_success_colorwrap.png?raw=true" width="250" />
   <img src="/ReadmeResources/screenshot_error_colorwrap.png?raw=true" width="250"/>
-  <img src="/ReadmeResources/screenshot_warning_colorwrap.png?raw=true" width="250" />
-  <img src="/ReadmeResources/screenshot_info_colorwrap.png?raw=true" width="250" />
+</p>
+
+<p align="center">
+    <img src="/ReadmeResources/screenshot_warning_colorwrap.png?raw=true" width="250" />
+    <img src="/ReadmeResources/screenshot_info_colorwrap.png?raw=true" width="250" />
 </p>
 
 1 GIF
+ - TODO make a GIF
 
 ### Setup ###
 
