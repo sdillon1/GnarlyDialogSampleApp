@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.CompoundButton;
+import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -31,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
     Button button_launchDialogError;
     Button button_launchDialogWarning;
     Button button_launchDialogInfo;
+
+    Switch switch_color_wrap_layout;
 
 
     @Override
@@ -56,6 +60,8 @@ public class MainActivity extends AppCompatActivity {
         button_launchDialogError = (Button) findViewById(R.id.button_launchDialogError);
         button_launchDialogWarning = (Button) findViewById(R.id.button_launchDialogWarning);
         button_launchDialogInfo = (Button) findViewById(R.id.button_launchDialogInfo);
+
+        switch_color_wrap_layout = (Switch) findViewById(R.id.switch_color_wrap_layout);
 
     }
 
@@ -89,12 +95,23 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        switch_color_wrap_layout.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked) {
+                    switch_color_wrap_layout.setText(getString(R.string.checkbox_use_color_wrap_layout));
+                } else {
+                    switch_color_wrap_layout.setText(getString(R.string.checkbox_dont_use_color_wrap_layout));
+                }
+            }
+        });
+
     }
 
     public void showGnarlyAlert(int whichType) {
 
         // initialize GnarlyDialog and get UI text to put in there
-        final GnarlyDialog gnarlyDialog = new GnarlyDialog(MainActivity.this, whichType, false);
+        final GnarlyDialog gnarlyDialog = new GnarlyDialog(MainActivity.this, whichType, switch_color_wrap_layout.isChecked());
 //        final GnarlyDialog gnarlyDialog = new GnarlyDialog(MainActivity.this, whichType);
 
         if (!textview_title.getText().toString().equals("")) {

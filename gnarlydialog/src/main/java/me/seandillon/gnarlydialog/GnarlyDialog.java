@@ -92,6 +92,13 @@ public class GnarlyDialog extends Dialog {
         this(context, GNARLY_DIALOG_TYPE_DEFAULT);
     }
 
+    /**
+     *
+     * @param context
+     * @param gnarlyDialogType
+     * @param shouldUseColorWrapLayout This defaults to true but can be set to false if user uses
+     *                                 this constructor and passes false
+     */
     public GnarlyDialog(Context context, int gnarlyDialogType, boolean shouldUseColorWrapLayout) {
 
         this(context, gnarlyDialogType);
