@@ -7,8 +7,12 @@ description goes here
 ### Insert GIF showing GnarlyDialogs from sample app here ###
 
 ### Setup ###
- - Maven Central or my Bintray maven for now
- - Gradle implementation...
+
+To use GnarlyDialog, make sure `jcenter()` is included in your project `build.gradle` file
+and then add the following `implementation` line to your app `build.gradle` file. Note that with
+new versions of Android Studio, `jcenter()` is automatically included when you create a new project.
+
+ `implementation 'me.seandillon.gnarlydialog:gnarlydialog:1.1'`
 
 ### Basic Example Usage ###
 
@@ -119,6 +123,8 @@ myGnarlyDialog.gnarlyDialogShow();
 ![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
 
 ![Alt text](/ReadmeResources/screenshot_success_colorwrap.png?raw=true "Screenshot Success with Color Wrap" | width=100)
+
+![Alt text](/ReadmeResources/screenshot_success_colorwrap.png?raw=true =200x "Screenshot Success with Color Wrap" | width=100)
 
 <hr>
 
