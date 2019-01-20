@@ -5,13 +5,16 @@ TODO - Finish making this readme
 GnarlyDialog is a fancy little Android Dialog library that makes it easy
 to create pretty, animated dialog messages in your apps.
 
+Latest Version
 [ ![Latest Version](https://api.bintray.com/packages/sdillon255/GnarlyDialog/me.seandillon.gnarlydialog/images/download.svg?version=1.1) ](https://bintray.com/sdillon255/GnarlyDialog/me.seandillon.gnarlydialog/1.1/link)
 
 Insert GooglePlay sample app download link here
 
 Insert Android Arsenal link here
 
-### Insert GIF showing GnarlyDialogs from sample app here ###
+<p align="center">
+  <img src="/ReadmeResources/demo_gif_colorwrap_1.gif?raw=true" width="250" />
+</p>
 
 <p align="center">
   <img src="/ReadmeResources/screenshot_success_colorwrap.png?raw=true" width="250" />
@@ -22,9 +25,6 @@ Insert Android Arsenal link here
     <img src="/ReadmeResources/screenshot_warning_colorwrap.png?raw=true" width="250" />
     <img src="/ReadmeResources/screenshot_info_colorwrap.png?raw=true" width="250" />
 </p>
-
-1 GIF
- - TODO make a GIF
 
 ### Setup ###
 
