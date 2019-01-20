@@ -11,4 +11,7 @@
     <string name="button_text_error">Error</string>
     <string name="button_text_warning">Warning</string>
     <string name="button_text_info">Info</string>
+    <string name="footer_text_gnarly_dialog_version">GnarlyDialog Library Version 1.1</string>
+    <string name="footer_test_developed_by">Developed By Sean Dillon</string>
+    <string name="footer_text_my_website">http://seandillon.me</string>
 </resources>

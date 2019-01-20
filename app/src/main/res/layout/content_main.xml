@@ -113,6 +113,29 @@
             android:theme="@style/gnarly_dialog_button_theme_info" />
     </LinearLayout>
 
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/textview_footer_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/footer_text_gnarly_dialog_version" />
+
+    <TextView
+        android:id="@+id/textview_footer_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/footer_test_developed_by" />
+
+    <TextView
+        android:id="@+id/textview_footer_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/footer_text_my_website" />
+
 </LinearLayout>
 
 

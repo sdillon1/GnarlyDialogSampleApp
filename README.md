@@ -69,7 +69,7 @@ use the color wrap layout which is enabled by default. Simply pass `false` as th
 
 ##### Show the GnarlyDialog #####
 To show the GnarlyDialog dialogs, use `gnarlyDialog.gnarlyDialogShow()`.
-This will show the dialog with an animation in. Do not use the available Dialog function
+This will show the dialog with an intro animation. Do not use the available Dialog function
 `gnarlyDialog.show()`. This will still show the dialog but it will not animate in.
 
 <hr>
@@ -176,6 +176,6 @@ Below is a list of apps currently using GnarlyDialog.
 If you use GnarlyDialog and would like to have your app listed here, send me a message
 or shoot me an email at seandillonapps@gmail.com.
 
- - GnarlyDialog sample app Google Play link 
+ - GnarlyDialog sample app Google Play link
  - App 1 Google Play link
  - App 2 Google Play link

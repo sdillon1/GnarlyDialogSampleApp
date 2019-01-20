@@ -1,5 +1,7 @@
 package me.seandillon.gnarlydialogsampleappreal;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -36,6 +38,11 @@ public class MainActivity extends AppCompatActivity {
 
     Switch switch_color_wrap_layout;
 
+    TextView textview_footer_1;
+    TextView textview_footer_2;
+    TextView textview_footer_3;
+    View.OnClickListener sendToDeveloperWebsite;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,6 +69,10 @@ public class MainActivity extends AppCompatActivity {
         button_launchDialogInfo = (Button) findViewById(R.id.button_launchDialogInfo);
 
         switch_color_wrap_layout = (Switch) findViewById(R.id.switch_color_wrap_layout);
+
+        textview_footer_1 = (TextView)findViewById(R.id.textview_footer_1);
+        textview_footer_2 = (TextView)findViewById(R.id.textview_footer_2);
+        textview_footer_3 = (TextView)findViewById(R.id.textview_footer_3);
 
     }
 
@@ -105,6 +116,20 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
+        // Create intent to send to developer website on click
+        sendToDeveloperWebsite = new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.footer_text_my_website)));
+                startActivity(browserIntent);
+            }
+        };
+
+        // Assign the sendToDeveloperWebsite click listener to each of the footer text views
+        textview_footer_1.setOnClickListener(sendToDeveloperWebsite);
+        textview_footer_2.setOnClickListener(sendToDeveloperWebsite);
+        textview_footer_3.setOnClickListener(sendToDeveloperWebsite);
 
     }
 
