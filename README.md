@@ -120,11 +120,10 @@ myGnarlyDialog.gnarlyDialogShow();
  - Error with no color wrap
  - Info with no color wrap
 
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+![Alt text](/ReadmeResources/screenshot_success_colorwrap.png?raw=true "Optional Title")
 
-![Alt text](/ReadmeResources/screenshot_success_colorwrap.png?raw=true "Screenshot Success with Color Wrap" | width=100)
+<img src="/ReadmeResources/screenshot_success_colorwrap.png?raw=true" width="50">
 
-![Alt text](/ReadmeResources/screenshot_success_colorwrap.png?raw=true =200x "Screenshot Success with Color Wrap" | width=100)
 
 <hr>
 
