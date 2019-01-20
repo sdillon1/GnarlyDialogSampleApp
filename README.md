@@ -1,5 +1,4 @@
 # GnarlyDialogSampleApp
-Fill in description later
 
 ### Initial stuff ###
  - Version badge from Bintray
@@ -7,9 +6,9 @@ Fill in description later
  - Android Arsenal Link
 
 ### Description ###
-description goes here
 
-Gnarly Dialog is a fancy little Android Dialog library that is free to use by anyone.
+GnarlyDialog is a fancy little Android Dialog library that makes it easy
+to create pretty, animated dialog messages in your apps.
 
 ### Insert GIF showing GnarlyDialogs from sample app here ###
 
@@ -19,8 +18,6 @@ Gnarly Dialog is a fancy little Android Dialog library that is free to use by an
   <img src="/ReadmeResources/screenshot_warning_colorwrap.png?raw=true" width="250" />
   <img src="/ReadmeResources/screenshot_info_colorwrap.png?raw=true" width="250" />
 </p>
-
-4 screen shots side by side here
 
 1 GIF
 
@@ -41,7 +38,7 @@ myGnarlyDialog.setGnarlyContentText("Content");
 myGnarlyDialog.gnarlyDialogShow();
 ```
 
-### Optional Functions and Options ###
+### Additional Functions and Options ###
 
 #### Constructors ####
 There are 3 constructor options available for GnarlyDialog.
