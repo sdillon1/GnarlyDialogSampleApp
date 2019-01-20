@@ -71,6 +71,7 @@ public class GnarlyDialog extends Dialog {
     private View.OnClickListener secondaryButtonOnClickListener = null;
 
     private boolean shouldDismissOnOutsideTouch = true;
+    private boolean shouldUseColorWrapLayout = true;
 
     // ============= End Gnarly class Vars =============
 
@@ -89,6 +90,13 @@ public class GnarlyDialog extends Dialog {
 //    public GnarlyDialog(@NonNull Context context) {
     public GnarlyDialog(Context context) {
         this(context, GNARLY_DIALOG_TYPE_DEFAULT);
+    }
+
+    public GnarlyDialog(Context context, int gnarlyDialogType, boolean shouldUseColorWrapLayout) {
+
+        this(context, gnarlyDialogType);
+        this.shouldUseColorWrapLayout = shouldUseColorWrapLayout;
+
     }
 
 //    public GnarlyDialog(@NonNull Context context, int gnarlyDialogType) {
@@ -121,21 +129,39 @@ public class GnarlyDialog extends Dialog {
         // TODO: decide if we want the color to wrap around the content like in the Info and Warning types below
         if (gnarlyDialogType == GNARLY_DIALOG_TYPE_SUCCESS) {
 
-            gnarlyLinearLayoutTitle.setBackgroundResource(R.drawable.gnarly_background_success);
+            if (shouldUseColorWrapLayout) {
+                gnarlyLinearLayoutWrapper.setBackgroundResource(R.drawable.gnarly_background_wrapper_success);
+                gnarlyLinearLayoutContentWrapper.setBackgroundResource(R.drawable.gnarly_background_inner);
+            } else {
+                gnarlyLinearLayoutTitle.setBackgroundResource(R.drawable.gnarly_background_success);
+            }
 
         } else if (gnarlyDialogType == GNARLY_DIALOG_TYPE_ERROR) {
 
-            gnarlyLinearLayoutTitle.setBackgroundResource(R.drawable.gnarly_background_error);
+            if (shouldUseColorWrapLayout) {
+                gnarlyLinearLayoutWrapper.setBackgroundResource(R.drawable.gnarly_background_wrapper_error);
+                gnarlyLinearLayoutContentWrapper.setBackgroundResource(R.drawable.gnarly_background_inner);
+            } else {
+                gnarlyLinearLayoutTitle.setBackgroundResource(R.drawable.gnarly_background_error);
+            }
 
         } else if (gnarlyDialogType == GNARLY_DIALOG_TYPE_INFO) {
 
-            gnarlyLinearLayoutWrapper.setBackgroundResource(R.drawable.gnarly_background_wrapper_info);
-            gnarlyLinearLayoutContentWrapper.setBackgroundResource(R.drawable.gnarly_background_inner);
+            if (shouldUseColorWrapLayout) {
+                gnarlyLinearLayoutWrapper.setBackgroundResource(R.drawable.gnarly_background_wrapper_info);
+                gnarlyLinearLayoutContentWrapper.setBackgroundResource(R.drawable.gnarly_background_inner);
+            } else {
+                gnarlyLinearLayoutTitle.setBackgroundResource(R.drawable.gnarly_background_info);
+            }
 
         } else if (gnarlyDialogType == GNARLY_DIALOG_TYPE_WARNING) {
 
-            gnarlyLinearLayoutWrapper.setBackgroundResource(R.drawable.gnarly_background_wrapper_warning);
-            gnarlyLinearLayoutContentWrapper.setBackgroundResource(R.drawable.gnarly_background_inner);
+            if (shouldUseColorWrapLayout) {
+                gnarlyLinearLayoutWrapper.setBackgroundResource(R.drawable.gnarly_background_wrapper_warning);
+                gnarlyLinearLayoutContentWrapper.setBackgroundResource(R.drawable.gnarly_background_inner);
+            } else {
+                gnarlyLinearLayoutTitle.setBackgroundResource(R.drawable.gnarly_background_warning);
+            }
 
         }
 

@@ -94,7 +94,8 @@ public class MainActivity extends AppCompatActivity {
     public void showGnarlyAlert(int whichType) {
 
         // initialize GnarlyDialog and get UI text to put in there
-        final GnarlyDialog gnarlyDialog = new GnarlyDialog(MainActivity.this, whichType);
+        final GnarlyDialog gnarlyDialog = new GnarlyDialog(MainActivity.this, whichType, false);
+//        final GnarlyDialog gnarlyDialog = new GnarlyDialog(MainActivity.this, whichType);
 
         if (!textview_title.getText().toString().equals("")) {
             gnarlyDialog.setGnarlyTitleText(textview_title.getText().toString());
