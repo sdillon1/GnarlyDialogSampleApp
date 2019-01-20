@@ -14,7 +14,7 @@ ext {
     // Atrifact Info
     publishedGroupId = 'me.seandillon.gnarlydialog' // the id you want to add in the implementation line
     artifact = 'gnarlydialog'                       // the artifact in the implementation line
-    libraryVersion = '1.0'
+    libraryVersion = '1.1'
 
     libraryDescription = 'blah blah fill in later'
     siteUrl = 'https://github.com/sdillon1/GnarlyDialogSampleApp'
@@ -41,8 +41,8 @@ android {
     defaultConfig {
         minSdkVersion 19
         targetSdkVersion 28
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.1"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
