@@ -12,7 +12,7 @@ Latest Version
 Download the GnarlyDialog sample app on Google Play to explore the features.
 
 <a href="https://play.google.com/store/apps/details?id=me.seandillon.gnarlydialogsampleappreal&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
-	<img border="0" alt="Get it on GooglePlay" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="323" height="125">
+	<img border="0" alt="Get it on GooglePlay" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="215" height="83">
 </a>
 
 
@@ -161,19 +161,6 @@ myGnarlyDialog.gnarlyDialogShow();
 ```
 
 <hr>
-
-
-
-## TODO Library ##
- - Create a nice fancy Readme here
- - Publish library to AndroidArsenal
-
-## TODO Sample App ##
- - Add auto fill button in sample app to automatically fill in sample data into text fields
-
-#### Useful Info ####
- - Steps to publish library to Bintray
-   - https://android.jlelse.eu/publishing-your-android-kotlin-or-java-library-to-jcenter-from-android-studio-1b24977fe450
 
 ## Apps using GnarlyDialog ##
 Below is a list of apps currently using GnarlyDialog.
