@@ -18,11 +18,6 @@ import android.widget.Toast;
 
 import me.seandillon.gnarlydialog.GnarlyDialog;
 
-
-
-
-
-
 public class MainActivity extends AppCompatActivity {
 
     // UI vars
@@ -43,14 +38,13 @@ public class MainActivity extends AppCompatActivity {
     TextView textview_footer_3;
     View.OnClickListener sendToDeveloperWebsite;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        
+
         setTitle(getString(R.string.activity_title));
 
         findByIds();

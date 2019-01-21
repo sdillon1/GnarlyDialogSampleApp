@@ -7,9 +7,14 @@ to create pretty, animated dialog messages in your apps.
 
 Latest Version
 
-[ ![Latest Version](https://api.bintray.com/packages/sdillon255/GnarlyDialog/me.seandillon.gnarlydialog/images/download.svg?version=1.1) ](https://bintray.com/sdillon255/GnarlyDialog/me.seandillon.gnarlydialog/1.1/link)
+[![Latest Version](https://api.bintray.com/packages/sdillon255/GnarlyDialog/me.seandillon.gnarlydialog/images/download.svg?version=1.1) ](https://bintray.com/sdillon255/GnarlyDialog/me.seandillon.gnarlydialog/1.1/link)
 
-Insert GooglePlay sample app download link here
+Download the GnarlyDialog sample app on Google Play to explore the features.
+
+<a href="https://play.google.com/store/apps/details?id=me.seandillon.gnarlydialogsampleappreal&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+	<img border="0" alt="Get it on GooglePlay" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="323" height="125">
+</a>
+
 
 Insert Android Arsenal link here
 
@@ -176,6 +181,6 @@ Below is a list of apps currently using GnarlyDialog.
 If you use GnarlyDialog and would like to have your app listed here, send me a message
 or shoot me an email at seandillonapps@gmail.com.
 
- - GnarlyDialog sample app Google Play link
- - App 1 Google Play link
+ - [GnarlyDialog Sample App](https://play.google.com/store/apps/details?id=me.seandillon.gnarlydialogsampleappreal "GnarlyDialog Sample App")
  - App 2 Google Play link
+ - App 3 Google Play link
