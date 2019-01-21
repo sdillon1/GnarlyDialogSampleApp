@@ -1,6 +1,4 @@
-# GnarlyDialogSampleApp
-
-TODO - Finish making this readme
+# This is GnarlyDialog!
 
 GnarlyDialog is a fancy little Android Dialog library that makes it easy
 to create pretty, animated dialog messages in your apps.
@@ -9,27 +7,26 @@ Latest Library Version
 
 [![Latest Version](https://api.bintray.com/packages/sdillon255/GnarlyDialog/me.seandillon.gnarlydialog/images/download.svg?version=1.1) ](https://bintray.com/sdillon255/GnarlyDialog/me.seandillon.gnarlydialog/1.1/link)
 
+*Insert Android Arsenal link here*
+
 Download the GnarlyDialog sample app on Google Play to explore the features.
 
 <a href="https://play.google.com/store/apps/details?id=me.seandillon.gnarlydialogsampleappreal&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
 	<img border="0" alt="Get it on GooglePlay" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="161" height="62">
 </a>
 
-
-Insert Android Arsenal link here
-
 <p align="center">
   <img src="/ReadmeResources/demo_gif_colorwrap_1.gif?raw=true" width="250" />
 </p>
 
 <p align="center">
-  <img src="/ReadmeResources/screenshot_success_colorwrap.png?raw=true" width="250" />
-  <img src="/ReadmeResources/screenshot_error_colorwrap.png?raw=true" width="250"/>
+  <img src="/ReadmeResources/screenshot_success_colorwrap.png?raw=true" width="200" />
+  <img src="/ReadmeResources/screenshot_error_colorwrap.png?raw=true" width="200"/>
 </p>
 
 <p align="center">
-    <img src="/ReadmeResources/screenshot_warning_colorwrap.png?raw=true" width="250" />
-    <img src="/ReadmeResources/screenshot_info_colorwrap.png?raw=true" width="250" />
+    <img src="/ReadmeResources/screenshot_warning_colorwrap.png?raw=true" width="200" />
+    <img src="/ReadmeResources/screenshot_info_colorwrap.png?raw=true" width="200" />
 </p>
 
 ### Setup ###
@@ -162,6 +159,11 @@ myGnarlyDialog.gnarlyDialogShow();
 
 <hr>
 
+## Author ##
+[Sean Dillon (Android Developer)](http://seandillon.me "Sean Dillon (Android Developer)")
+
+
+
 ## Apps using GnarlyDialog ##
 Below is a list of apps currently using GnarlyDialog.
 
@@ -169,5 +171,4 @@ If you use GnarlyDialog and would like to have your app listed here, send me a m
 or shoot me an email at seandillonapps@gmail.com.
 
  - [GnarlyDialog Sample App](https://play.google.com/store/apps/details?id=me.seandillon.gnarlydialogsampleappreal "GnarlyDialog Sample App")
- - App 2 Google Play link
- - App 3 Google Play link
+ - [Anti Surge (Update with GnarlyDialog to be released soon)](https://play.google.com/store/apps/details?id=me.seandillon.antisurge "Anti Surge")
