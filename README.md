@@ -160,7 +160,7 @@ myGnarlyDialog.gnarlyDialogShow();
 <hr>
 
 ## Author ##
-[Sean Dillon (Android Developer)](http://seandillon.me "Sean Dillon (Android Developer)")
+[Sean Dillon (Android Developer)](http://seandillon.me/readme-gnarlydialog  "Sean Dillon (Android Developer)")
 
 
 
@@ -171,4 +171,4 @@ If you use GnarlyDialog and would like to have your app listed here, send me a m
 or shoot me an email at seandillonapps@gmail.com.
 
  - [GnarlyDialog Sample App](https://play.google.com/store/apps/details?id=me.seandillon.gnarlydialogsampleappreal "GnarlyDialog Sample App")
- - [Anti Surge (Update with GnarlyDialog to be released soon)](https://play.google.com/store/apps/details?id=me.seandillon.antisurge "Anti Surge")
+ - [Anti Surge (Update with GnarlyDialog coming soon)](https://play.google.com/store/apps/details?id=me.seandillon.antisurge "Anti Surge")
