@@ -16,17 +16,17 @@ Download the GnarlyDialog sample app on Google Play to explore the features.
 </a>
 
 <p align="center">
-  <img src="/ReadmeResources/demo_gif_colorwrap_1.gif?raw=true" width="250" />
+  <img src="https://github.com/sdillon1/GnarlyDialogSampleApp/blob/master/ReadmeResources/demo_gif_colorwrap_1.gif?raw=true" width="250" />
 </p>
 
 <p align="center">
-  <img src="/ReadmeResources/screenshot_success_colorwrap.png?raw=true" width="200" />
-  <img src="/ReadmeResources/screenshot_error_colorwrap.png?raw=true" width="200"/>
+  <img src="https://github.com/sdillon1/GnarlyDialogSampleApp/blob/master/ReadmeResources/screenshot_success_colorwrap.png?raw=true" width="200" />
+  <img src="https://github.com/sdillon1/GnarlyDialogSampleApp/blob/master/ReadmeResources/screenshot_error_colorwrap.png?raw=true" width="200"/>
 </p>
 
 <p align="center">
-    <img src="/ReadmeResources/screenshot_warning_colorwrap.png?raw=true" width="200" />
-    <img src="/ReadmeResources/screenshot_info_colorwrap.png?raw=true" width="200" />
+    <img src="https://github.com/sdillon1/GnarlyDialogSampleApp/blob/master/ReadmeResources/screenshot_warning_colorwrap.png?raw=true" width="200" />
+    <img src="https://github.com/sdillon1/GnarlyDialogSampleApp/blob/master/ReadmeResources/screenshot_info_colorwrap.png?raw=true" width="200" />
 </p>
 
 ### Setup ###
