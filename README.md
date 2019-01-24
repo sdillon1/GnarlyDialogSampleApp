@@ -1,9 +1,9 @@
 # This is GnarlyDialog!
 
-GnarlyDialog is a fancy little Android Dialog library that makes it easy
-to create pretty, animated dialog messages in your apps.
+GnarlyDialog is a fancy little Android Dialog library I built that makes
+it easy to create pretty, animated dialog messages in your apps.
 
-Latest Library Version
+Latest Bintray Library Version
 
 [![Latest Version](https://api.bintray.com/packages/sdillon255/GnarlyDialog/me.seandillon.gnarlydialog/images/download.svg?version=1.1) ](https://bintray.com/sdillon255/GnarlyDialog/me.seandillon.gnarlydialog/1.1/link)
 
